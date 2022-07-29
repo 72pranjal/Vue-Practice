@@ -7,6 +7,7 @@
   <click />
   <towayBindingVue />
   <getInputValues />
+  <heremany />
 
 </template>
 
@@ -17,6 +18,8 @@ import hi from "./components/interpolation.vue";
 import click from "./components/events.vue";
 import towayBindingVue from "./components/to-wayBinding.vue";
 import getInputValues from "./components/getInputValues.vue";
+import heremany from "./components/hello.vue";
+
 
 
 
@@ -30,6 +33,7 @@ export default {
     click,
     towayBindingVue,
     getInputValues,
+    heremany,
 
 },
 };
