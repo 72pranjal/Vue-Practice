@@ -6,7 +6,7 @@
     <br>
     
      
-</template>
+</template> 
 
 <script>
 export default{
@@ -18,7 +18,7 @@ export default{
     },
     methods:{
         getdata(){
-            console.log("values",this.email,this.pass);
+            console.log("values",'Email=',this.email,'Password=',this.pass);
         }
     }
 }

@@ -14,8 +14,7 @@
   <parent />
   <reuse />
   <dynamic />
-  <ref />
-  <form2 />
+
 </template>
 
 <script>
@@ -32,10 +31,6 @@ import forloop from "./components/forloop.vue";
 import parent from "./components/parent.vue";
 import reuse from "./components/reuseComponents.vue";
 import dynamic from "./components/dynamicClasses.vue";
-import ref from "./components/ref.vue";
-import form2 from "./components/creatingForm.vue";
-
-
 
 
 
@@ -55,8 +50,6 @@ export default {
     parent,
     reuse,
     dynamic,
-    ref,
-    form2,
 
 },
 };
