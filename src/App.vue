@@ -16,6 +16,8 @@
   <dynamic />
   <ref />
   <form2 />
+  <watcher />
+  <document />
 </template>
 
 <script>
@@ -34,8 +36,8 @@ import reuse from "./components/reuseComponents.vue";
 import dynamic from "./components/dynamicClasses.vue";
 import ref from "./components/ref.vue";
 import form2 from "./components/creatingForm.vue";
-
-
+import watcher from "./components/watcher.vue";
+import document from "./components/document.vue";
 
 
 
@@ -57,6 +59,8 @@ export default {
     dynamic,
     ref,
     form2,
+    watcher,
+    document
 
 },
 };
